@@ -1,15 +1,17 @@
 # Norvik Studio — native HTML clone
 
+![Norvik Studio homepage, full-page scroll](docs/preview/homepage.gif)
+
 A 1:1 rebuild (layout, type, spacing and behaviour) of the reference studio template, rebranded as **Norvik Studio**.
 Plain HTML/CSS/JS, no build step needed to view, no hosting needed.
 
-![Norvik Studio homepage, full-page scroll](docs/preview/homepage.gif)
-
 ## How to open
+
 - Double-click `index.html`. Everything (fonts, GSAP, Lenis, images, video) is local, so it works offline.
 - Or serve it from this folder: `python -m http.server 5577` → http://127.0.0.1:5577
 
 ## Structure
+
 ```
 index.html about.html work.html journal.html contact.html     main pages
 404.html 401.html style-guide.html licenses.html changelog.html  utility pages
@@ -25,13 +27,16 @@ assets/img/                photos (+ credits.json), favicon.svg
 assets/video/              studio reel + poster
 docs/preview/              README preview (homepage.gif) + hero.png still
 ```
+
 32 pages in total.
 
 ## Editing copy
+
 Copy lives directly in the HTML pages; CSS and JS are in `assets/css/style.css` and `assets/js/main.js`.
 Shared parts (nav, menu panel, footer) are repeated on every page, so change them everywhere.
 
 ## States & interactions included
+
 Menu panel (open/close, scrim, staggered rows, Esc/click-outside), submenus (+ rotates to ×), row hover meta slide-in,
 dot-glyph hover grow, button text-roll + arrow-chip swap, image hover zoom, work-card panel expand + "Discover case",
 journal-index hover preview image, FAQ accordion, services/testimonial sliders (arrows + keyboard),
@@ -41,6 +46,7 @@ staggered fade-ups, sticky stacked core values, floating filter bar (work + jour
 smooth scroll + same-page anchor scrolling, `prefers-reduced-motion` support.
 
 ## Placeholder / to replace
+
 - Brand name, email `hello@norvik.studio`, phone, cities (Copenhagen — Porto).
 - Client/project names, people, quotes, awards, numbers: all fictional.
 - Logo and service glyphs are simple pixel marks drawn for this site.
