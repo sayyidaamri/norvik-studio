@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prototyping straight in code — Norvik Studio</title>
+<meta name="description" content="Norvik Studio is an independent studio for brand systems, digital products and campaigns.">
+<link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/css/style.css">
+<script>document.documentElement.classList.add("js")</script>
+</head>
+<body class="">
+<div class="page">
+
+<header class="hdr">
+  <div class="hdr__scrim" data-scrim></div>
+  <div class="nav">
+    <div class="nav__bar">
+      <a href="../index.html" class="nav__logo" aria-label="Norvik Studio home"><svg class="nav__mark" viewBox="0 0 50 50" aria-hidden="true"><rect x="0" y="0" width="10" height="10" fill="currentColor"/><rect x="0" y="10" width="10" height="10" fill="currentColor"/><rect x="0" y="20" width="10" height="10" fill="currentColor"/><rect x="0" y="30" width="10" height="10" fill="currentColor"/><rect x="0" y="40" width="10" height="10" fill="currentColor"/><rect x="10" y="10" width="10" height="10" fill="currentColor"/><rect x="20" y="20" width="10" height="10" fill="currentColor"/><rect x="30" y="30" width="10" height="10" fill="currentColor"/><rect x="40" y="0" width="10" height="10" fill="currentColor"/><rect x="40" y="10" width="10" height="10" fill="currentColor"/><rect x="40" y="20" width="10" height="10" fill="currentColor"/><rect x="40" y="30" width="10" height="10" fill="currentColor"/><rect x="40" y="40" width="10" height="10" fill="currentColor"/></svg></a>
+      <div class="nav__title">Still reading?</div>
+      <button type="button" class="nav__toggle" aria-label="Menu" aria-expanded="false" data-menu-toggle><span class="nav__dots"><i></i><i></i><i></i><i></i></span></button>
+    </div>
+    <div class="nav__panel" data-menu-panel>
+      <div class="nav__inner">
+        <nav class="nav__list"><div class="nav__item"><a href="../index.html" class="nav__row"><span class="nav__label">Home</span><span class="nav__meta">One team</span><span class="nav__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" aria-hidden="true" ><path d="M7 17 17 7M9 7h8v8"/></svg></span></a></div><div class="nav__item"><div class="nav__sub">
+        <button type="button" class="nav__row" data-sub-toggle aria-expanded="false"><span class="nav__label">About</span><span class="nav__meta">Since 2016</span><span class="nav__icon is-plus"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" aria-hidden="true" stroke-width="1.6"><path d="M12 4v16M4 12h16"/></svg></span></button>
+        <div class="nav__subwrap"><div class="nav__sublist"><a href="../about.html" class="nav__sublink"><span class="nav__sublabel">The Studio</span><span class="nav__subicon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" aria-hidden="true" ><path d="M7 17 17 7M9 7h8v8"/></svg></span></a><a href="../about.html#philosophy" class="nav__sublink"><span class="nav__sublabel">Our philosophy</span><span class="nav__subicon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" aria-hidden="true" ><path d="M7 17 17 7M9 7h8v8"/></svg></span></a><a href="../about.html#values" class="nav__sublink"><span class="nav__sublabel">Core values</span><span class="nav__subicon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" aria-hidden="true" ><path d="M7 17 17 7M9 7h8v8"/></svg></span></a><a href="../about.html#profile" class="nav__sublink"><span class="nav__sublabel">Studio profile</span><span class="nav__subicon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" aria-hidden="true" ><path d="M7 17 17 7M9 7h8v8"/></svg></span></a><a href="../about.html#team" class="nav__sublink"><span class="nav__sublabel">The team</span><span class="nav__subicon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" aria-hidden="true" ><path d="M7 17 17 7M9 7h8v8"/></svg></span></a><a href="../about.html#numbers" class="nav__sublink"><span class="nav__sublabel">By the numbers</span><span class="nav__subicon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" aria-hidden="true" ><path d="M7 17 17 7M9 7h8v8"/></svg></span></a><a href="../about.html#awards" class="nav__sublink"><span class="nav__sublabel">Recognition</span><span class="nav__subicon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" aria-hidden="true" ><path d="M7 17 17 7M9 7h8v8"/></svg></span></a></div></div>
+      </div></div><div class="nav__item"><div class="nav__sub">
+        <button type="button" class="nav__row" data-sub-toggle aria-expanded="false"><span class="nav__label">Works</span><span class="nav__meta">Selected projects</span><span class="nav__icon is-plus"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" aria-hidden="true" stroke-width="1.6"><path d="M12 4v16M4 12h16"/></svg></span></button>
+        <div class="nav__subwrap"><div class="nav__sublist"><a href="../work.html" class="nav__sublink"><span class="nav__sublabel">All Work</span><span class="nav__subicon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" aria-hidden="true" ><path d="M7 17 17 7M9 7h8v8"/></svg></span></a><a href="../categories/brand-identity.html" class="nav__sublink"><span class="nav__sublabel">Brand identity</span><span class="nav__subicon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" aria-hidden="true" ><path d="M7 17 17 7M9 7h8v8"/></svg></span></a><a href="../categories/digital-product.html" class="nav__sublink"><span class="nav__sublabel">Digital product</span><span class="nav__subicon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" aria-hidden="true" ><path d="M7 17 17 7M9 7h8v8"/></svg></span></a><a href="../categories/content-motion.html" class="nav__sublink"><span class="nav__sublabel">Content &amp; motion</span><span class="nav__subicon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" aria-hidden="true" ><path d="M7 17 17 7M9 7h8v8"/></svg></span></a><a href="../categories/design-systems.html" class="nav__sublink"><span class="nav__sublabel">Design systems</span><span class="nav__subicon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" aria-hidden="true" ><path d="M7 17 17 7M9 7h8v8"/></svg></span></a><a href="../categories/packaging.html" class="nav__sublink"><span class="nav__sublabel">Packaging</span><span class="nav__subicon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" aria-hidden="true" ><path d="M7 17 17 7M9 7h8v8"/></svg></span></a><a href="../categories/film-campaign.html" class="nav__sublink"><span class="nav__sublabel">Film &amp; campaign</span><span class="nav__subicon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" aria-hidden="true" ><path d="M7 17 17 7M9 7h8v8"/></svg></span></a></div></div>
+      </div></div><div class="nav__item"><a href="../journal.html" class="nav__row"><span class="nav__label">Journal</span><span class="nav__meta">Notes from the studio</span><span class="nav__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" aria-hidden="true" ><path d="M7 17 17 7M9 7h8v8"/></svg></span></a></div><div class="nav__item"><a href="../contact.html" class="nav__row"><span class="nav__label">Contact</span><span class="nav__meta">Copenhagen — Porto</span><span class="nav__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" aria-hidden="true" ><path d="M7 17 17 7M9 7h8v8"/></svg></span></a></div></nav>
+        <div class="nav__item nav__cta-wrap"><a href="../contact.html" class="nav__cta">Start a project</a></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="main">
+<section class="sec-article"><div class="wrap pad-top"><div class="container"><div class="sec-content">
+  <div class="article__meta"><a href="../journal.html" class="article__back"><span class="article__back-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" aria-hidden="true" ><path d="M9 14 4 9l5-5M4 9h10a6 6 0 0 1 0 12h-3"/></svg></span><span class="label-mono">All notes</span></a><div class="label-mono">Interface</div><div class="label-mono">May 5, 2026</div></div>
+  <div class="article__title"><h1 class="h1 text-10xl" data-reveal>Prototyping straight in code</h1></div>
+  <div class="article__hero"><img src="../assets/img/jh-code.jpg" alt="" class="cover" loading="lazy" loading="eager"></div>
+</div></div></div></section>
+<section class="sec-article-body"><div class="wrap section-pad"><div class="container"><div class="article__grid">
+  <div class="article__rail"><div class="label-mono">Written by</div><div class="article__author"><div class="article__portrait"><img src="../assets/img/author-3.jpg" alt="" class="cover" loading="lazy" ></div><div class="article__author-lines"><div class="article__author-name">Daniel Okafor</div><div class="sec-meta__t">Design director, product</div></div></div></div>
+  <div class="article__body"><div class="richtext"><p>For years our interface work ended at a beautiful file and began again in someone else's codebase. Somewhere in that gap, spacing changed, motion disappeared and the states nobody drew got invented on the spot. So we moved the gap.</p>
+<h2>Why the file was never the product</h2>
+<p>A static frame cannot tell you how a list behaves with forty items, how a heading wraps on a narrow phone, or how long a transition should take before it feels slow. Those are the details people actually notice, and they only exist in a browser.</p>
+<ul><li><strong>Real content</strong> — every screen is built with the client's actual copy and data from week two</li><li><strong>Real devices</strong> — reviews happen on phones and laptops, not on a projected canvas</li><li><strong>Real motion</strong> — timing and easing are decided in code and shipped exactly as approved</li></ul>
+<h2>What the developers get</h2>
+<blockquote>When the prototype is the reference, nobody has to interpret what the designer meant.</blockquote>
+<p>Developers receive working components rather than pictures of them. They can read the code, question it and adopt what fits their stack. The conversation moves from what something should look like to how it should be built — a far better conversation to have.</p>
+<h2>Where we still draw first</h2>
+<p>We still sketch. Early direction work is faster on paper and in a canvas, where a bad idea costs five minutes rather than an afternoon. The rule is simply that nothing gets approved until it has been seen working.</p>
+<h3>The cost</h3>
+<p>It asks more of the designers. Everyone on the product team writes enough code to build what they draw, and that took us a year of practice to get right. It was worth every week of it.</p></div></div>
+</div></div></div></section>
+<section class="sec-journal"><div class="wrap section-pad"><div class="container"><div class="sec-content">
+  <div class="sec-head"><h2 class="h2" data-reveal>Keep reading.</h2></div>
+  <div class="journal-wrap"><div class="jgrid">
+  <div class="jcell"><a href="../journal/what-an-identity-owes-its-builders.html" class="jcard" data-imgscale>
+    <img src="../assets/img/j-identity.jpg" alt="" class="jcard__img" loading="lazy" data-imgscale-target>
+    <div class="jcard__scrim"></div>
+    <div class="jcard__body"><div class="jcard__meta"><div class="label-sm">Brand systems</div><div class="label-sm">June 12, 2026</div></div>
+    <div class="jcard__title-wrap"><h3 class="jcard__title">What an identity owes the people who build it.</h3></div></div>
+  </a></div>
+  <div class="jcell"><a href="../journal/why-we-quote-by-phase.html" class="jcard" data-imgscale>
+    <img src="../assets/img/j-phase.jpg" alt="" class="jcard__img" loading="lazy" data-imgscale-target>
+    <div class="jcard__scrim"></div>
+    <div class="jcard__body"><div class="jcard__meta"><div class="label-sm">Practice</div><div class="label-sm">March 2, 2026</div></div>
+    <div class="jcard__title-wrap"><h3 class="jcard__title">Why we quote by phase, not by the hour.</h3></div></div>
+  </a></div></div></div>
+</div></div></div></section>
+</main>
+
+<section class="careers">
+  <img src="../assets/img/careers.jpg" alt="" class="careers__media" loading="lazy" >
+  <div class="wrap"><div class="container"><div class="careers__content">
+    <div class="careers__title-wrap"><h2 class="careers__title" data-reveal>Start <br>what’s new with us</h2></div>
+    <p class="careers__text" data-fade-careers>Wherever you sit at Norvik, there is room to shape real work and leave a mark that lasts.</p>
+    <div class="btn-row" data-fade-buttons><a href="../contact.html" class="btn is-light" data-btn ><span class="btn__col"><span class="btn__row"><span class="btn__text">Start a project</span></span><span class="btn__row"><span class="btn__text">Start a project</span></span></span><span class="btn__chip"><span class="btn__chip-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" aria-hidden="true" ><path d="M7 17 17 7M9 7h8v8"/></svg></span><span class="btn__chip-row is-second"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" aria-hidden="true" ><path d="M7 17 17 7M9 7h8v8"/></svg></span></span></a><a href="../about.html" class="btn" data-btn ><span class="btn__col"><span class="btn__row"><span class="btn__text">Meet the studio</span></span><span class="btn__row"><span class="btn__text">Meet the studio</span></span></span><span class="btn__chip"><span class="btn__chip-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" aria-hidden="true" ><path d="M7 17 17 7M9 7h8v8"/></svg></span><span class="btn__chip-row is-second"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" aria-hidden="true" ><path d="M7 17 17 7M9 7h8v8"/></svg></span></span></a></div>
+  </div></div></div>
+</section>
+
+<footer class="footer">
+  <div class="wrap"><div class="container"><div class="footer__inner">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <div class="footer__logo"><svg class="" viewBox="0 0 50 50" aria-hidden="true"><rect x="0" y="0" width="10" height="10" fill="currentColor"/><rect x="0" y="10" width="10" height="10" fill="currentColor"/><rect x="0" y="20" width="10" height="10" fill="currentColor"/><rect x="0" y="30" width="10" height="10" fill="currentColor"/><rect x="0" y="40" width="10" height="10" fill="currentColor"/><rect x="10" y="10" width="10" height="10" fill="currentColor"/><rect x="20" y="20" width="10" height="10" fill="currentColor"/><rect x="30" y="30" width="10" height="10" fill="currentColor"/><rect x="40" y="0" width="10" height="10" fill="currentColor"/><rect x="40" y="10" width="10" height="10" fill="currentColor"/><rect x="40" y="20" width="10" height="10" fill="currentColor"/><rect x="40" y="30" width="10" height="10" fill="currentColor"/><rect x="40" y="40" width="10" height="10" fill="currentColor"/></svg></div>
+        <p class="footer__para">Norvik is an independent studio working across brand, product, and content. We partner with founders and in-house teams on positioning, identity systems, and the digital products built on top of them.</p>
+      </div>
+      <div class="footer__nav">
+        <div class="footer__list"><a href="../index.html" class="footer__navlink">home</a><a href="../about.html" class="footer__navlink">about</a><a href="../work.html" class="footer__navlink">works</a><a href="../journal.html" class="footer__navlink">Journal</a><a href="../contact.html" class="footer__navlink">contact</a></div>
+        <div class="footer__links"><a href="../style-guide.html" class="footer__link">Style Guide</a><a href="../404.html" class="footer__link">Custom 404</a><a href="../licenses.html" class="footer__link">Licenses</a><a href="../401.html" class="footer__link">Custom 401</a><a href="../changelog.html" class="footer__link">Change Log</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom"><div>© 2026 <a href="../index.html" class="link">Norvik Studio</a>, hand-built in <a href="../style-guide.html" class="link">native HTML</a></div><div>Copenhagen — Porto</div></div>
+  </div></div></div>
+</footer>
+</div>
+<script src="../assets/vendor/gsap.min.js"></script>
+<script src="../assets/vendor/ScrollTrigger.min.js"></script>
+<script src="../assets/vendor/SplitText.min.js"></script>
+<script src="../assets/vendor/lenis.min.js"></script>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
