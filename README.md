@@ -1,8 +1,8 @@
-# Norvik Studio — native HTML clone
+# Norvik Studio — native HTML site
 
 ![Norvik Studio homepage, full-page scroll](docs/preview/homepage.gif)
 
-A 1:1 rebuild (layout, type, spacing and behaviour) of the reference studio template, rebranded as **Norvik Studio**.
+An original studio site, **Norvik Studio**.
 Plain HTML/CSS/JS, no build step needed to view, no hosting needed.
 
 ## How to open
@@ -19,7 +19,7 @@ work/*.html                8 case studies
 categories/*.html          6 work categories
 journal/*.html             4 articles
 journal-categories/*.html  4 journal categories
-assets/css/style.css       all styles (fluid em scale measured from the reference)
+assets/css/style.css       all styles (fluid em scale)
 assets/js/main.js          all interactions
 assets/fonts/              Instrument Sans + Inter (woff2) and fonts.css
 assets/vendor/             GSAP, ScrollTrigger, SplitText, Lenis
